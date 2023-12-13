@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    .font-inter{
+        font-family: 'Inter', sans-serif;
+    }
+    .perspective-wrapper{
+        perspective: 1000px;
+    }
+    .rotate-z-45{
+        animation: roty45 2.5s ease-in-out infinite alternate-reverse;
+    }
+    .floaty-2{
+        animation: floatY 2.5s ease-in-out infinite alternate-reverse;
+    }
+    .floaty-4{
+        animation: floatY 5s ease-in-out infinite alternate-reverse;
+    }
+    .hue-roam-2{
+        animation: hue-45 2.5s ease-in-out infinite alternate-reverse;
+    }
+    .hue-roam-4{
+        animation: hue-45 5s ease-in-out infinite alternate-reverse;
+    }
+    @keyframes roty45 {
+        0%{
+            scale: 0.7 1;
+            -moz-transform: rotateY(15deg);
+            -webkit-transform: rotateY(15deg);
+            -o-transform: rotateY(15deg);
+            -ms-transform: rotateY(15deg);
+            transform: rotateY(15deg);
+        }
+        100%{
+            scale: 0.9 1;
+            -moz-transform: rotateY(5deg);
+            -webkit-transform: rotateY(5deg);
+            -o-transform: rotateY(5deg);
+            -ms-transform: rotateY(5deg);
+            transform: rotateY(5deg);
+        }
+    }
+    @keyframes floatY {
+        0%{
+            translate: 0% 0%;
+        }
+        100%{
+            translate: 0% 10%;
+        }
+    }
+    @keyframes hue-45 {
+        0%{
+            filter: hue-rotate(-90deg);
+        }
+        100%{
+            filter: hue-rotate(90deg);
+        }
+    }
+}
