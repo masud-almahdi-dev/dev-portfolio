@@ -11,10 +11,18 @@ Hi, I am front-end developer interested in working with React, HTML, NodeJs & mo
 ## Portfolio
 Live Link: https://react-portfolio-m2.web.app
 
+
+## About project
+A React portfolio app featuring EmailJs, tailwindcss, react-scroll, css animations, video background & resume download functionality.
+
 Features:
 - Animated Contents
-- Featuring Video Background
-- Project Highlights
-- Email Contact Form & Recieved reply
 - Sticky Navigation
+- Project Highlights
+- TailwindCss for styling
+- Resume Download Feaeture
+- Featuring Video Background
+- EmailJs focused contact form
+- React-Scroll Library or smooth scroll
 - Frosted Glass effects on various elements
+- Contact Form message delivery status reply via email
