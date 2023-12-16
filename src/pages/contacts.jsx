@@ -1,17 +1,29 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const Contacts = () => {
     const form = useRef();
+    const toastinfo = {
+      position: "bottom-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined,
+      theme: "dark"
+    }
+    const notify = () => toast(<div className='p-4 py-5'>Successfully Sent message!<br/>Please check your E-mail for confirmation report!</div>, toastinfo);
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_j55gxi8', 'template_zyk08wv', form.current, 'wos2PEhAd3mh4KJqx')
             .then((result) => {
-                console.log(result.text);
+                notify();
             }, (error) => {
-                console.log(error.text);
+                toast.error(<div className='p-4 py-5'>{error.text}</div>,toastinfo);
             });
     };
     return (

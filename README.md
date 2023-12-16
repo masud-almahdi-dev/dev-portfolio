@@ -13,7 +13,7 @@ Live Link: https://react-portfolio-m2.web.app
 
 
 ## About project
-A React portfolio app featuring EmailJs, tailwindcss, react-scroll, css animations, video background & resume download functionality.
+A React portfolio app featuring EmailJs, tailwindcss, react-scroll, react-toastify, css animations, video background & resume download functionality.
 
 Features:
 - Animated Contents
@@ -23,6 +23,7 @@ Features:
 - Resume Download Feaeture
 - Featuring Video Background
 - EmailJs focused contact form
+- React-Toastify success confirmation
 - React-Scroll Library or smooth scroll
 - Frosted Glass effects on various elements
 - Contact Form message delivery status reply via email
