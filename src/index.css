@@ -69,10 +69,10 @@
     }
     @keyframes brightness-4 {
         0%{
-            filter: brightness(0.45) saturate(0);
+            filter: brightness(0.45) contrast(1.25) saturate(0);
         }
         100%{
-            filter: brightness(0.75) saturate(0);
+            filter: brightness(0.75) contrast(1) saturate(0);
         }
     }
     @keyframes desat-4 {

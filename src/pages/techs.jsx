@@ -1,6 +1,6 @@
 const Techs = () => {
     return (
-        <section id="techs" className=' text-white h-screen flex md:justify-around perspective-wrapper'>
+        <section id="techs" className=' text-white h-screen flex md:justify-around perspective-wrapper desat-roam-4'>
             <video muted loop autoPlay className="absolute w-auto min-w-full h-full object-cover hue-rotate-[5deg] saturate-50 ">
                 <source src="/underwater.mp4" type="video/mp4" />
                 Your browser does not support the video tag.

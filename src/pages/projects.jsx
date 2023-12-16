@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         <section id="projects" className=' text-white min-h-screen h-max md:h-full flex md:justify-around perspective-wrapper'>
-            <img src="/projectsbg.jpg" alt="" className='absolute w-auto min-w-full h-full object-cover hue-rotate-[5deg] saturate-0 brightness-roam-4' />
+            <img src="/underwater2.jpg" alt="" className='absolute w-auto min-w-full h-full object-cover -hue-rotate-[20deg]' />
             <div className='flex flex-col h-max pb-6 lg:h-screen justify-center'>
 
                 <h3 className='text-white z-30 m-6 px-4 py-2 backdrop-blur-lg rounded-md w-max border-2 border-white mt-10'>Projects:</h3>
