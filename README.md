@@ -1,13 +1,20 @@
-# Portfolio Website
-Owner: `Masud Al Mahdi` (Farhad)
+#  Masud Al Mahdi (Portfolio-Site)
 
-Web Developer | Node.js, Express, MongoDB, Firebase, React, HTML. CSS, JS, TailwindCSS
+## Designation
+**Web Developer** | ``Node.js``, ``Express``, ``MongoDB``, ``Firebase``, ``React``, ``HTML``, ``CSS``, ``JS``, ``TailwindCSS``
 
+## About
+Hi, I am front-end developer interested in working with React, HTML, NodeJs & more of related technologies.
+
+``Goal:`` Creating Web Applications & Softwares that puts the need of clients and developers together and build a relationship with experienced developers to further my understanding of the ecosystems.
+
+## Portfolio
 Live Link: https://react-portfolio-m2.web.app
 
 Features:
-
-- Fancy Design Ideas
 - Animated Contents
+- Featuring Video Background
 - Project Highlights
-- Contact Info
+- Email Contact Form & Recieved reply
+- Sticky Navigation
+- Frosted Glass effects on various elements
